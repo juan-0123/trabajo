@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <LInk rel="stylesheet" href="../CSS/Estilos CSS.css">
+    <title>REGRISTRO</title>
+</head>
+<body>
+    <div id="container">
+        <div class="header">
+        <center>
+        <img src="../IMG/LogoMakr-83WQiF (1).png" alt="" width="200" height="200" >
+        <br>
+        <br>
+        <!-- atualizar datos -->
+        <body style="background-color: #220d8d3d;">
+        
+        <h1>Formulario de registro</h1>
+        <h2>Mantenimiento y servicios</h2>
+    </center>
+    </div>
+    <center>
+    <form id="form" class="form" action="">
+        <div class="form-control">
+            <label for="usuario">NOMBRE COMPLETO</label>
+            <input type="text" placeholder="Ingrese su nombre" id="usuario">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <br>
+            <BR>
+            <small>mensaje de error</small>
+        </div>
+        <div class="form-control">
+            <label for="tipodoc">TIPO DOCUMENTO</label>
+            <select class="form-select mb-2" placeholder="Tipo de Documento" id="tipodoc">
+                <option selected> Tipo de Documento</option>
+                <option value="Cédula de Ciudadanía">Cédula de Ciudadanía</option>
+                <option value="Cédula Extranjería">Cédula Extranjería</option>
+                <option value="Tarjeta de Identidad">Tarjeta de Identidad</option>
+                <option value="Pasaporte">Pasaporte</option>
+                <option value="Registro Civil">Registro Civil</option>
+                <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <br>
+            <br>
+            <small>mensaje de error</small>
+            </select>
+            
+        </div>
+        <div class="form-control">
+            <label for="documento">NÚMERO DE DOCUMENTO</label>
+            <input type="text" placeholder="Ingrese su número de documento" id="documento">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <br>
+            <br>
+            <small>mensaje de error</small>
+        </div>
+        <div class="form-control">
+            <label for="telefono">NÚMERO DE TELEFONO</label>
+            <input type="text" placeholder="Ingrese su número de celular" id="telefono">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <br>
+            <br>
+            <small>mensaje de error</small>
+        </div>
+        <div class="w-100 form-control">
+            <label for="email">EMAIL</label>
+            <input type="text" placeholder="Ingrese cuenta@servidor.com" id="email">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <br>
+            <small>mensaje de error</small>
+        </div>
+        <div class="form-control">
+            <label for="password">CONTRASEÑA</label>
+            <input type="password" placeholder="Password" id="password">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <br>
+            <br>
+            <small>mensaje de error</small>
+        </div>
+        <div class="form-control">
+            <label for="pasword2">REPETIR CONTRASEÑA</label>
+            <input type="password" placeholder="Vuelva a ingresar contraseña" id="password2">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <br>
+            <br>
+            <small>mensaje de error</small>
+        </div>
+    </form>
+    </center>
+        <center><button id="registro" class="w-100 btn btn-lg btn-primary " type="submit" onclick="return validainputs()">Regristro</button></center>      
+        <br>
+        <center><a class="mt-2 w-100 btn btn-lg btn-primary" href="../index.html" role="button">Volver al inicio</a>
+        </center>
+
+</div>
+</body>
+</html>
